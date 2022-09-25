@@ -285,3 +285,11 @@ body{
 .photo:hover::before{
     opacity: 1;
 }
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 100px;
+    height: 100px;
+}
+
