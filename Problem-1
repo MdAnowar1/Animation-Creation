@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPTaTSsaPHHcAQER7UZqPV2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MdAnowar1/Animation-Creation/blob/main/Problem-1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MUFv5oTVT_-G",
+        "outputId": "a16ee562-1081-4313-ec3f-1d5d29415194"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Please Enter Your First Name: Muhammad\n",
+            "Please Enter Your Last Name: Anowar\n",
+            "Hello, Muhammad Anowar !\n"
+          ]
+        }
+      ],
+      "source": [
+        "first_name = input(\"Please Enter Your First Name: \")\n",
+        "last_name = input(\"Please Enter Your Last Name: \")\n",
+        "full_name = first_name + \" \" + last_name\n",
+        "print(f\"Hello, {full_name} !\")"
+      ]
+    }
+  ]
+}
